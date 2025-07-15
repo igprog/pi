@@ -1,0 +1,28 @@
+export const info = {
+  owner: 'programishrane',
+  appDomain: 'programishrane.rs',
+  company: 'SYMAPPSYS d.o.o.',
+  address: 'Kraljevica Marka 19',
+  postalCode: 21000,
+  city: 'Novi Sad',
+  country: 'Srbija',
+  phone: '+38169 117 33 44',
+  phoneShort: "38169 117 33 44",
+  email: 'office@symappsys.com',
+  pin: null,
+  sendTo: 'office@symappsys.com',
+  googleMap: '',
+  web: 'symappsys.com',
+  manufacturer: {
+    company: 'IG PROG, obrt za računalno programiranje',
+    address: 'Ludvetov breg 5',
+    postalCode: 51000,
+    city: 'Rijeka',
+    country: 'Hrvatska',
+    phone: '+38385 098 330 966',
+    phoneShort: "38385 098 330 966",
+    email: 'info@programprehrane.com',
+    pin: null,
+    web: 'programprehrane.com',
+  }
+}
