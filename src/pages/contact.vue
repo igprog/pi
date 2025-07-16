@@ -4,8 +4,6 @@
       <h2 class="pt-5">Kontakt</h2>
       <hr class="w-50 mx-auto mb-4">
     </div>
-
-
     <div class="row">
       <div class="col-lg-6 py-2">
         <h3>
@@ -59,16 +57,13 @@
             </a>
           </div>
         </div>
-
       </div>
     </div>
-
   </div>
 </template>
 
 <script>
 import cContact from "../components/cContact.vue";
-import cMap from "../components/cMap.vue";
 import { info } from "../config/info";
 export default {
   metaInfo() {
@@ -78,8 +73,7 @@ export default {
     }
   },
   components: {
-    cContact,
-    cMap,
+    cContact
   },
   data() {
     return {

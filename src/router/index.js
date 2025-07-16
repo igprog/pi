@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import home from '@/pages/home'
 // import gallery from '@/pages/gallery'
 // import booking from '@/pages/booking'
-// import prices from '@/pages/prices'
+import aboutus from '@/pages/aboutus'
 import contact from '@/pages/contact'
 import packages from '@/pages/packages'
 import test from '@/pages/test'
@@ -26,6 +26,11 @@ export default new Router({
       path: '/paketi',
       name: 'Paketi',
       component: packages,
+    },
+    {
+      path: '/o-nama',
+      name: 'O nama',
+      component: aboutus,
     },
     {
       path: '/kontakt',

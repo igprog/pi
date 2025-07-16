@@ -952,11 +952,13 @@
             </table>
         </div>
         <div class="alert alert-info my-3" role="alert">
-            <strong>Napomena:</strong> Svi podaci pohranjeni u aplikaciju (klijenti, recepti, jelovnici, namirnice i ostalo)
-            čuvaju se najmanje 1 godinu nakon isteka višegodišnje pretplate, odnosno najmanje 1 mjesec nakon isteka
-            mjesečne, tromjesečne i polugodišnje pretplate. Nakon isteka pretplate, korisnički račun se deaktivira – većina
-            funkcionalnosti u programu bit će onemogućena – no račun i svi podaci neće se brisati dok traje navedeni period.
+            <strong>Napomena:</strong> Svi podaci uneti u aplikaciju (klijenti, recepti, jelovnici, namirnice i ostalo)
+            čuvaju se najmanje 1 godinu nakon isteka višegodišnje pretplate, odnosno najmanje 1 mesec nakon isteka
+            mesečne, tromesečne i polugodišnje pretplate. Nakon isteka pretplate, korisnički nalog se deaktivira – većina
+            funkcionalnosti u programu biće onemogućena – ali nalog i svi podaci neće biti obrisani dok traje navedeni
+            period.
         </div>
+
         <!-- <div class="pt-3">
         <h3>Dodatne usluge:</h3>
         <div class="row">

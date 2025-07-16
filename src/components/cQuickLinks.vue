@@ -19,7 +19,7 @@
       </a>
     </div>
     <div>
-      <a href="/docs/korisnicka-licenca-sr.pdf" target="_blank" rel="noopener" title="Uslovi korišćenja">
+      <a href="/docs/korisnicka-licenca-sr.pdf" rel="noopener" title="Uslovi korišćenja">
         Uslovi korišćenja
       </a>
     </div>
@@ -34,8 +34,9 @@ export default {
       menu: [
         { link: "/", title: "Naslovna", ico: null, isVisible: true },
         { link: "paketi", title: "Cene", ico: null, isVisible: true },
+        { link: "o-nama", title: "O nama", ico: null, isVisible: true },
         { link: "kontakt", title: "Kontakt", ico: null, isVisible: true },
-        { link: "uslovi-koristenja-i-kupnje", title: "Uslovi korištenja i kupnje", ico: null, isVisible: true },
+        { link: "uslovi-koristenja-i-kupnje", title: "Uslovi korištenja i kupnje", ico: null, isVisible: false },
         { link: "test", title: "Test", ico: null, isVisible: false },
       ],
     };

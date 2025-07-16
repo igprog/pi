@@ -20,21 +20,24 @@
             </div>
             <div class="col-md-4 pt-2">
               <h2 class="text-white">Kontakt</h2>
+              <div>Distributer za Srbiju:</div>
+              <hr class="m-0 bg-light">
               <c-contact aColor="#fff"  />
             </div>
           </div>
         </div>
       </div>
-      <footer class="container-fluid pt-3">
+      <footer class="container-fluid pt-3 pb-2">
         <div class="text-center">
           <span class="small"
-            >© {{ year }} Program Ishrane | Veb dizajn :
-            <a
-              href="https://www.igprog.hr"
-              title="Izrada web stranica i aplikacija"
+            >© {{ year }} Program Ishrane – lokalizovana verzija softvera <a
+              href="https://www.programprehrane.com"
+              target="_blank"
+              title="Program Prehrane"
               class="font-weight-bold"
-              >IG PROG</a
-            ></span
+              >Program Prehrane</a>.
+Sva prava zadržana.
+            </span
           >
         </div>
       </footer>

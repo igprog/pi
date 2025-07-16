@@ -55,6 +55,8 @@
             {{ $t(x.title) }}
           </span>
         </router-link>
+      </div>
+      <div>
         <span class="nav-link">
           <a href="https://www.programprehrane.com/registracija?lang=sr" class="text-light" title="Registracija">
             Registracija
@@ -66,6 +68,7 @@
           </a>
         </span>
       </div>
+
       <div class="p-3">
         <!-- <c-locale-switcher id="dropdownMenuButton2" /> -->
       </div>
@@ -74,20 +77,21 @@
 </template>
 
 <script>
-import cLocaleSwitcher from './cLocaleSwitcher.vue';
+// import cLocaleSwitcher from './cLocaleSwitcher.vue';
 export default {
   data() {
     return {
       menu: [
         { link: "/", title: "Naslovna", ico: null, isVisible: false },
         { link: "paketi", title: "Paketi", ico: null, isVisible: true },
+        { link: "o-nama", title: "O nama", ico: null, isVisible: true },
         { link: "kontakt", title: "contact", ico: null, isVisible: false },
         { link: "test", title: "Test", ico: null, isVisible: false },
       ],
     };
   },
   components: {
-    cLocaleSwitcher
+    // cLocaleSwitcher
   },
   computed: {
     menu_: function () {
