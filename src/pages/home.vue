@@ -1,6 +1,6 @@
 <template>
     <div>
-        <header class="bg-main">
+        <header class="bg-main-gradient">
             <div class="container" style="padding: 140px 0 0 0">
                 <div class="row">
                     <div class="col-xl-7 text-center">
@@ -12,12 +12,12 @@
                         </h2>
                         <div class="py-3">
                             <a href="https://www.programprehrane.com/app" class="btn btn-light m-2 main-border bg-white"
-                                style="width:260px" title="Ulaz u aplikaciju">
+                                style="width:260px;height:50px;" title="Ulaz u aplikaciju">
                                 <icon name="sign-in-alt" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Ulaz za korisnike</span>
                             </a>
                             <a href="https://www.programprehrane.com/registracija?lang=sr"
-                                class="btn btn-light m-2 main-gradient" style="width:260px" title="Postani korisnik">
+                                class="btn btn-light m-2 pt-2 main-border bg-white" style="width:260px;height:50px;" title="Postani korisnik">
                                 <icon name="user-plus" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Postani korisnik</span>
                             </a>
@@ -238,7 +238,7 @@
                 </div>
             </section>
 
-            <section class="py-5 bg-main text-white text-center">
+            <section class="py-5 bg-main-gradient text-white text-center">
                 <div class="container">
                     <h2 class="font-weight-bold text-light mb-3">Započni odmah sa Programom Ishrane</h2>
                     <p class="lead mb-4">
@@ -248,7 +248,7 @@
                     <a href="https://www.programprehrane.com/registracija?lang=sr"
                         class="btn btn-light m-2 main-border bg-white d-inline-flex align-items-center justify-content-center"
                         style="width:260px;" title="Postani korisnik">
-                        <icon  name="user-plus" scale=2 class="text-main mr-2" />
+                        <icon name="user-plus" scale=2 class="text-main mr-2" />
                         <span class="lead text-main font-weight-bold mb-0">Registruj se</span>
                     </a>
                 </div>
@@ -314,7 +314,8 @@
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
-                                    <span class="text-nowrap"><label class="lead font-weight-bold">{{ convertAndFormat(prices.demo.min_mo_price) }}</label></span>
+                                    <span class="text-nowrap"><label class="lead font-weight-bold">{{
+                                        convertAndFormat(prices.demo.min_mo_price) }}</label></span>
                                     <hr class="m-0" />
                                 </div>
                                 <div>
@@ -349,7 +350,8 @@
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4 text-center">
-                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{ convertAndFormat(prices.start.min_mo_price) }}</label> mesečno</span>
+                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{
+                                        convertAndFormat(prices.start.min_mo_price) }}</label> mesečno</span>
                                     <hr class="m-0" />
                                 </div>
                                 <div>
@@ -385,7 +387,8 @@
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
                                     <span class="text-nowrap"></span>
-                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{ convertAndFormat(prices.standard.min_mo_price) }}</label> mesečno</span>
+                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{
+                                        convertAndFormat(prices.standard.min_mo_price) }}</label> mesečno</span>
                                     <hr class="m-0" />
                                 </div>
                                 <div>
@@ -423,7 +426,8 @@
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
-                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{ convertAndFormat(prices.premium.min_mo_price) }}</label> mesečno</span>
+                                    <span class="text-nowrap">od <label class="lead font-weight-bold">{{
+                                        convertAndFormat(prices.premium.min_mo_price) }}</label> mesečno</span>
                                     <hr class="m-0" />
                                 </div>
                                 <div>

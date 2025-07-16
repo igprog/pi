@@ -41,6 +41,10 @@
 .bg-main-dark {
     background-color: #058CAC;
 }
+.bg-main-gradient {
+    background-image: linear-gradient(to bottom right, var(--main-color), var(--main-color-light));
+    /* color: white !important; */
+}
 .banner {
     /* background: url("../../assets/img/banner.png") no-repeat center center; */
     /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/banner.png') no-repeat center center; */
@@ -191,3 +195,4 @@ feature-text {
 .nav-link a {
   color: var(--main-color);
 }
+

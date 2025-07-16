@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import home from '@/pages/home'
-// import gallery from '@/pages/gallery'
-// import booking from '@/pages/booking'
 import aboutus from '@/pages/aboutus'
 import contact from '@/pages/contact'
 import packages from '@/pages/packages'
@@ -43,4 +41,11 @@ export default new Router({
       component: test,
     },
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 })
