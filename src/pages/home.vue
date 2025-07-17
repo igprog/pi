@@ -148,16 +148,13 @@
                 <div class="container text-center">
                     <h2 class="font-weight-bold mb-3">Priznanja</h2>
                     <hr class="w-25 mx-auto mb-4">
-                    <!-- <p class="lead text-muted">
-                    <strong>Program Ishrane</strong> je dobitnik više priznanja na domaćim i međunarodnim sajmovima inovacija.
-                </p> -->
                     <div class="row mt-4">
                         <div class="col-md-3 mb-4">
                             <div class="flip-box card p-2" style="cursor:move">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img src="../assets/img/awards/inova34.jpg" alt="inova34.jpg"
-                                            class="img-fluid flip-box-img" />
+                                            class="img-fluid flip-box-img" loading="lazy" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h3 class="font-weight-bold"> INOVA 34</h3>
@@ -166,21 +163,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <award-directive shortdesc="'INOVA 34'"
-                                longdesc="'Zlatna medalja na 34. hrvatskom salonu inovacija INOVA 2009 (Verzija 1.0 iz 2008 g.)'"
-                                img="'./assets/img/awards/inova34.jpg'">
-                            </award-directive> -->
                         </div>
                         <div class="col-md-3 mb-4">
-                            <!-- <award-directive shortdesc="'INOVA 37'"
-                                longdesc="'Zlatna medalja na 37. salonu inovacija INOVA 2012, sa međunarodnim sudjelovanjem (Verzija 2.0 iz 2012 g)'"
-                                img="'./assets/img/awards/inova37.jpg'">
-                            </award-directive> -->
                             <div class="flip-box card p-2" style="cursor:move">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img src="../assets/img/awards/inova37.jpg" alt="inova37.jpg"
-                                            class="img-fluid flip-box-img" />
+                                            class="img-fluid flip-box-img" loading="lazy" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h3 class="font-weight-bold"> INOVA 37</h3>
@@ -191,15 +180,11 @@
                             </div>
                         </div>
                         <div class="col-md-3 mb-4">
-                            <!-- <award-directive shortdesc="'INVENTUM 2013'"
-                                longdesc="'Srebrna medalja na sajmu INVENTUM 2013 g. (Verzija 3.0 iz 2012 g)'"
-                                img="'./assets/img/awards/inventum2013.jpg'">
-                            </award-directive> -->
                             <div class="flip-box card p-2" style="cursor:move">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img src="../assets/img/awards/inventum2013.jpg" alt="inventum2013.jpg"
-                                            class="img-fluid flip-box-img" />
+                                            class="img-fluid flip-box-img" loading="lazy" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h3 class="font-weight-bold"> INVENTUM 2013</h3>
@@ -210,15 +195,11 @@
                             </div>
                         </div>
                         <div class="col-md-3 mb-4">
-                            <!-- <award-directive shortdesc="'Agro Arca'"
-                                longdesc="'Plaketa na sajmu Agro Arca 2013. godine (Verzija 4.0 iz 2013 g)'"
-                                img="'./assets/img/awards/agroarca.png'">
-                            </award-directive> -->
                             <div class="flip-box card p-2" style="cursor:move">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img src="../assets/img/awards/agroarca.png" alt="agroarca.png"
-                                            class="img-fluid flip-box-img" />
+                                            class="img-fluid flip-box-img" loading="lazy" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h3 class="font-weight-bold"> Agro Arca</h3>
@@ -229,7 +210,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- <div class="mt-4 text-center">
                     <p class="text-muted">
                         <strong>* Program Prehrane</strong> uvršten je na listu 50 najperspektivnijih hrvatskih poslovnih programskih rješenja za 2020. godinu!
@@ -281,7 +261,7 @@
                         </div>
                         <div class="col-lg-6 text-center">
                             <img src="../assets/img/program_prehrane_web_korisnici.png?v=10.10.2024"
-                                alt="Korisnici Programa Ishrane" class="img-fluid img-thumbnail shadow-sm">
+                                alt="Korisnici Programa Ishrane" class="img-fluid img-thumbnail shadow-sm" loading="lazy" >
                         </div>
                     </div>
                     <div class="mt-5">
@@ -289,7 +269,7 @@
                             <div class="row mt-3" data-nosnippet>
                                 <div v-for="x in customers" class="col-2 pt-3">
                                     <img :src="require(`@/assets/img/customers/${x.img}`)" class="img-fluid customers-img"
-                                        alt="" :title="x.title" />
+                                        alt="" :title="x.title" loading="lazy"  />
                                 </div>
                             </div>
                         </div>

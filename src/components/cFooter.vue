@@ -11,6 +11,7 @@
                   alt="logo"
                   class="img-fluid"
                   style="width:350px"
+                  loading="lazy" 
                 />
               </div>
             </div>

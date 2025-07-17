@@ -1,4 +1,0 @@
-{ 
-    "backend": "http://localhost:51193/",
-    "apiurl": "https://localhost:5001/api"
-}
