@@ -951,8 +951,14 @@
                 </tr>
             </table>
         </div>
+
+        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
+            <strong>Napomena:</strong> Sve iskazane cene su informativne i izražene u srpskim dinarima. Konačna cena može
+            neznatno varirati u zavisnosti od srednjeg kursa evra na dan porudžbine.
+        </p>
+
         <div class="alert alert-info my-3" role="alert">
-            <strong>Napomena:</strong> Svi podaci uneti u aplikaciju (klijenti, recepti, jelovnici, namirnice i ostalo)
+            Svi podaci uneti u aplikaciju (klijenti, recepti, jelovnici, namirnice i ostalo)
             čuvaju se najmanje 1 godinu nakon isteka višegodišnje pretplate, odnosno najmanje 1 mesec nakon isteka
             mesečne, tromesečne i polugodišnje pretplate. Nakon isteka pretplate, korisnički nalog se deaktivira – većina
             funkcionalnosti u programu biće onemogućena – ali nalog i svi podaci neće biti obrisani dok traje navedeni

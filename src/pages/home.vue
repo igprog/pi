@@ -17,7 +17,8 @@
                                 <span class="lead font-weight-bold text-main pl-1">Ulaz za korisnike</span>
                             </a>
                             <a href="https://www.programprehrane.com/registracija?lang=sr"
-                                class="btn btn-light m-2 pt-2 main-border bg-white" style="width:260px;height:50px;" title="Postani korisnik">
+                                class="btn btn-light m-2 pt-2 main-border bg-white" style="width:260px;height:50px;"
+                                title="Postani korisnik">
                                 <icon name="user-plus" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Postani korisnik</span>
                             </a>
@@ -261,7 +262,7 @@
                         </div>
                         <div class="col-lg-6 text-center">
                             <img src="../assets/img/program_prehrane_web_korisnici.png?v=10.10.2024"
-                                alt="Korisnici Programa Ishrane" class="img-fluid img-thumbnail shadow-sm" loading="lazy" >
+                                alt="Korisnici Programa Ishrane" class="img-fluid img-thumbnail shadow-sm" loading="lazy">
                         </div>
                     </div>
                     <div class="mt-5">
@@ -269,7 +270,7 @@
                             <div class="row mt-3" data-nosnippet>
                                 <div v-for="x in customers" class="col-2 pt-3">
                                     <img :src="require(`@/assets/img/customers/${x.img}`)" class="img-fluid customers-img"
-                                        alt="" :title="x.title" loading="lazy"  />
+                                        alt="" :title="x.title" loading="lazy" />
                                 </div>
                             </div>
                         </div>
@@ -309,7 +310,11 @@
                                     <div><s class="text-muted">Aplikacija za klijente</s></div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
                                     <div><s class="text-muted">AI podrška</s></div>
-                                    <div><a href="./paketi" class="text-info lead" title="saznaj više">više...</a></div>
+                                    <div>
+                                        <router-link to="paketi" title="paketi">
+                                            <span>više...</span>
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
@@ -345,7 +350,11 @@
                                     <div><s class="text-muted">Aplikacija za klijente</s></div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
                                     <div><s class="text-muted">AI podrška</s></div>
-                                    <div><a href="./paketi" class="text-info lead" title="saznaj više">više...</a></div>
+                                    <div>
+                                        <router-link to="paketi" title="paketi">
+                                            <span>više...</span>
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
@@ -385,7 +394,11 @@
                                     <div>Aplikacija za klijente</div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
                                     <div><s class="text-muted">AI podrška</s></div>
-                                    <div><a href="./paketi" class="text-info lead" title="saznaj više">više...</a></div>
+                                    <div>
+                                        <router-link to="paketi" title="paketi">
+                                            <span>više...</span>
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
@@ -424,7 +437,11 @@
                                     <div>Aplikacija za klijente</div>
                                     <div>Pristup USDA bazi namirnica</div>
                                     <div>AI podrška</div>
-                                    <div><a href="./paketi" class="text-info lead" title="saznaj više">više...</a></div>
+                                    <div>
+                                        <router-link to="paketi" title="paketi">
+                                            <span>više...</span>
+                                        </router-link>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
