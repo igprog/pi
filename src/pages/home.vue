@@ -469,7 +469,7 @@ export default {
     metaInfo() {
         return {
             title: 'Program Ishrane',
-            titleTemplate: '%s | ' + 'Softvare za nutricioniste',
+            titleTemplate: '%s | ' + 'Softver za nutricioniste',
         }
     },
     data() {
