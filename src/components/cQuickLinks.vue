@@ -18,9 +18,14 @@
         Porudžbina
       </a>
     </div>
-    <div>
+    <div class="pb-1">
       <a href="/docs/korisnicka-licenca-sr.pdf" rel="noopener" title="Uslovi korišćenja">
         Uslovi korišćenja
+      </a>
+    </div>
+    <div class="pb-1">
+      <a href="https://www.plan-ishrane.com/" title="Plan ishrane">
+        Plan ishrane
       </a>
     </div>
   </div>

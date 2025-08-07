@@ -19,14 +19,6 @@
         <icon v-if="showIcon" name="phone" scale=2 class="text-main" /><span class="p-2">+{{ info.phoneShort }}</span>
       </a>
     </div>
-    <!-- <div class="pb-1">
-      <a :href="`viber://chat?number=%2B${info.phone}`" title="Viber" class="shadow badge badge-primary badge-pill m-1 p-2">
-      <icon name="brands/viber" scale=2 /><span class="p-2">Viber</span>
-      </a>
-      <a :href="`https://api.whatsapp.com/send?phone=${info.phone}`" title="WhatsApp" class="shadow badge badge-success badge-pill m-1 p-2">
-      <icon name="brands/whatsapp" scale=2 /><span class="p-2">WhatsApp</span>
-      </a>
-    </div> -->
     <div class="pb-1">
       <a :href="`mailto:${info.email}`" :title="$t('email')" :style="`color:${aColor}`">
         <icon v-if="showIcon" name="envelope" scale=2 class="text-main" /><span class="p-2">{{ info.email }}</span>
