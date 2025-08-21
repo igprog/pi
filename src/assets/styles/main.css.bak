@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 :root {
-  /* --main-color: #065d8a;
-  --main-color-light: #46b5d0; */
-  --main-color: #3BAE76;
-  --main-color-light: #6FC79D;
+  /* --main-color: #46b5d0; */
+  --main-color: #065d8a;
+  --main-color-light: #46b5d0;
 }
 
 #app {
