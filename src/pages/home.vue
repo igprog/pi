@@ -134,7 +134,7 @@
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+118.000</div>
+                            <div class="circle-stat mb-3">+120.000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
@@ -291,7 +291,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-12 p-2">
                         <div class="card text-center">
                             <div class="card-header main-gradient">
-                                <h3>DEMO</h3>
+                                <h3 class="font-weight-bold">DEMO</h3>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
@@ -331,7 +331,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-12 p-2">
                         <div class="card text-center zoom">
                             <div class="card-header main-gradient">
-                                <h3>START</h3>
+                                <h3 class="font-weight-bold">START</h3>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4 text-center">
@@ -371,7 +371,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-12 p-2">
                         <div class="card text-center zoom">
                             <div class="card-header main-gradient">
-                                <h3>STANDARD</h3>
+                                <h3 class="font-weight-bold">STANDARD</h3>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
@@ -415,7 +415,7 @@
                     <div class="col-xl-3 col-lg-6 col-md-12 p-2">
                         <div class="card text-center zoom shadow">
                             <div class="card-header main-gradient">
-                                <h3>PREMIUM</h3>
+                                <h3 class="font-weight-bold">PREMIUM</h3>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
