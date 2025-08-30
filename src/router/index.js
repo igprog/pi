@@ -4,7 +4,7 @@ import home from '@/pages/home'
 import aboutus from '@/pages/aboutus'
 import contact from '@/pages/contact'
 import packages from '@/pages/packages'
-import test from '@/pages/test'
+// import test from '@/pages/test'
 
 
 // import { defaultLocale } from '../config/i18n'
@@ -35,11 +35,11 @@ export default new Router({
       name: 'Kontakt',
       component: contact,
     },
-    {
-      path: '/test',
-      name: 'Test',
-      component: test,
-    },
+    // {
+    //   path: '/test',
+    //   name: 'Test',
+    //   component: test,
+    // },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {

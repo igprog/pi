@@ -12,13 +12,13 @@
                         </h2>
                         <div class="py-3">
                             <a href="https://www.programprehrane.com/app/#/?lang=sr" class="btn btn-light m-2 main-border bg-white"
-                                style="width:260px;height:50px;" title="Ulaz u aplikaciju">
+                                style="width:260px;height:50px;" title="Prijava u aplikaciju">
                                 <icon name="sign-in-alt" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Ulaz za korisnike</span>
                             </a>
                             <a href="https://www.programprehrane.com/registracija?lang=sr"
                                 class="btn btn-light m-2 pt-2 main-border bg-white" style="width:260px;height:50px;"
-                                title="Postani korisnik">
+                                title="Registracija">
                                 <icon name="user-plus" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Postani korisnik</span>
                             </a>
