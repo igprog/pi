@@ -40,7 +40,7 @@
                         <icon name="users" scale=2 class="text-main" />
                         <h3 class="lead mb-0 mt-2 font-weight-bold">Klijenti</h3>
                         <p class="feature-text m-2">Evidencija klijenata, praćenje antropometrijskih parametara, metabolički
-                            izračuni i analiza sastava tela.</p>
+                            Proračuni i analiza sastava tela.</p>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 p-3">
                         <icon name="heartbeat" scale=2 class="text-main" />
@@ -305,7 +305,7 @@
                                     <div>Br. namirnica: <strong>664</strong></div>
                                     <div>Br. fizičkih aktivnosti: <strong>470</strong></div>
                                     <div>Maks. broj obroka: <strong>6</strong></div>
-                                    <div>Metode izračuna BMR: <strong>1</strong></div>
+                                    <div>Metode proračuna BMR: <strong>1</strong></div>
                                     <div><s class="text-muted">Kalendar termina</s></div>
                                     <div><s class="text-muted">Aplikacija za klijente</s></div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
@@ -345,7 +345,7 @@
                                     <div>Br. namirnica: <strong>664</strong></div>
                                     <div>Br. fizičkih aktivnosti: <strong>470</strong></div>
                                     <div>Maks. broj obroka: <strong>6</strong></div>
-                                    <div>Metode izračuna BMR: <strong>1</strong></div>
+                                    <div>Metode proračuna BMR: <strong>1</strong></div>
                                     <div><s class="text-muted">Kalendar termina</s></div>
                                     <div><s class="text-muted">Aplikacija za klijente</s></div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
@@ -389,7 +389,7 @@
                                     <div>Br. namirnica: <strong>740</strong></div>
                                     <div>Br. fizičkih aktivnosti: <strong>470</strong></div>
                                     <div>Maks. broj obroka: <strong>6</strong></div>
-                                    <div>Metode izračuna BMR: <strong>4</strong></div>
+                                    <div>Metode proračuna BMR: <strong>4</strong></div>
                                     <div>Kalendar termina</div>
                                     <div>Aplikacija za klijente</div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
@@ -432,7 +432,7 @@
                                     <div>Br. namirnica: <strong>970</strong></div>
                                     <div>Br. fizičkih aktivnosti: <strong>727</strong></div>
                                     <div>Maks. broj obroka: <strong>9</strong></div>
-                                    <div>Metode izračuna BMR: <strong>5</strong></div>
+                                    <div>Metode proračuna BMR: <strong>5</strong></div>
                                     <div>Kalendar termina</div>
                                     <div>Aplikacija za klijente</div>
                                     <div>Pristup USDA bazi namirnica</div>

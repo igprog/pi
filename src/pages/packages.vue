@@ -209,7 +209,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Metode izračuna BMR (bazalnog metabolizma)</td>
+                    <td>Metode proračuna BMR (bazalnog metabolizma)</td>
                     <td>
                         <ul>
                             <li>Miflin - St Jeor</li>
@@ -269,7 +269,7 @@
                         Kalkulator masnog tkiva
                         <p class="small">
                             <em>
-                                * Izračunavanje masnog tkiva pomoću merenja kaliperom
+                                * Proračunavanje masnog tkiva pomoću merenja kaliperom
                             </em>
                         </p>
                         <ul class="small">
@@ -330,7 +330,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Izračunavanje indeksa telesne mase (BMI) i energetske potrošnje</td>
+                    <td>Proračunavanje indeksa telesne mase (BMI) i energetske potrošnje</td>
                     <td class="text-center">
                         <icon name="check" scale=1 class="text-main" />
                     </td>
@@ -342,7 +342,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Detaljan izračun energetske potrošnje</td>
+                    <td>Detaljan proračun energetske potrošnje</td>
                     <td class="text-center">
                         <icon name="check" scale=1 class="text-main" />
                     </td>
@@ -651,7 +651,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Izrada šoping liste</td>
+                    <td>Izrada liste za kupovinu</td>
                     <td class="text-center">
                         <icon name="minus" scale=1 class="text-danger" />
                     </td>
@@ -787,7 +787,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Izvoz šoping liste u CSV formatu</td>
+                    <td>Izvoz liste za kupovinu u CSV formatu</td>
                     <td class="text-center">
                         <icon name="minus" scale=1 class="text-danger" />
                     </td>

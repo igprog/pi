@@ -9,13 +9,18 @@
       </router-link>
     </div>
     <div class="pb-1">
+      <a href="https://www.programprehrane.com/narudzba?lang=sr" title="Porudžbina">
+        Porudžbina
+      </a>
+    </div>
+    <div class="pb-1">
       <a href="https://www.programprehrane.com/registracija?lang=sr" title="Registracija">
         Registracija
       </a>
     </div>
     <div class="pb-1">
-      <a href="https://www.programprehrane.com/narudzba?lang=sr" title="Porudžbina">
-        Porudžbina
+      <a href="https://www.programprehrane.com/app/#/?lang=sr" title="Prijava">
+        Prijava
       </a>
     </div>
     <div class="pb-1">
