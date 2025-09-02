@@ -34,7 +34,7 @@
     color: #058CAC;
 }
 .bg-main {
-    background-color: var(--main-color);
+    background-color: var(--main-color)!important;
 }
 .bg-main-light {
     background-color: var(--main-color-light);
@@ -195,5 +195,13 @@ feature-text {
 
 .nav-link a {
   color: var(--main-color);
+}
+
+.border-main {
+    border-color: var(--main-color)!important;
+}
+
+.border-main:hover {
+    background-color: var(--main-color)!important;
 }
 

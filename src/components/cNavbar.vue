@@ -14,19 +14,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <router-link to="/paketi" class="nav-link text-dark">Paketi</router-link>
+              <router-link to="/paketi" class="nav-link text-dark font-weight-bold">Paketi</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/o-nama" class="nav-link text-dark">O nama</router-link>
+              <router-link to="/o-nama" class="nav-link text-dark font-weight-bold">O nama</router-link>
             </li>
             <li class="nav-item">
-              <a href="https://www.programprehrane.com/narudzba?lang=sr" class="nav-link text-dark">Porudžbina</a>
+              <a href="https://www.programprehrane.com/narudzba?lang=sr" class="nav-link text-dark font-weight-bold">Porudžbina</a>
             </li>
             <li class="nav-item">
-              <a href="https://www.programprehrane.com/registracija?lang=sr" class="nav-link text-dark">Registracija</a>
+              <a href="https://www.programprehrane.com/registracija?lang=sr" class="nav-link text-light btn rounded-pill bg-main font-weight-bold mx-1">Registracija</a>
             </li>
             <li class="nav-item">
-              <a href="https://www.programprehrane.com/app/#/?lang=sr" class="nav-link text-dark">Prijava</a>
+              <a href="https://www.programprehrane.com/app/#/?lang=sr" class="nav-link text-dark btn rounded-pill border-main font-weight-bold mx-1">Prijava</a>
             </li>
           </ul>
         </div>
@@ -45,13 +45,9 @@
       <div v-for="(x, idx) in menu_" :key="idx" @click="closeNav">
         <router-link :to="x.link" class="nav-link text-white">{{ $t(x.title) }}</router-link>
       </div>
-
-      <!-- Staticki linkovi -->
-      <div>
-        <span class="nav-link"><a href="https://www.programprehrane.com/narudzba?lang=sr" class="text-light">Porudžbina</a></span>
-        <span class="nav-link"><a href="https://www.programprehrane.com/registracija?lang=sr" class="text-light">Registracija</a></span>
-        <span class="nav-link"><a href="https://www.programprehrane.com/app/#/?lang=sr" class="text-light">Prijava</a></span>
-      </div>
+      <div><a href="https://www.programprehrane.com/narudzba?lang=sr" class="nav-link text-light">Porudžbina</a></div>
+      <div><a href="https://www.programprehrane.com/registracija?lang=sr" class="nav-link text-light">Registracija</a></div>
+      <div><a href="https://www.programprehrane.com/app/#/?lang=sr" class="nav-link text-light">Prijava</a></div>
     </div>
   </div>
 </template>
