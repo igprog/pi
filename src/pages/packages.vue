@@ -510,6 +510,24 @@
                 </tr>
                 <tr>
                     <td>
+                        Generisanje slike recepta za objavu <sup>(AI)</sup>
+                        <p class="small">
+                            <em>* Generisanje slike recepta spremne za deljenje na društvenim mrežama.
+                                Automatsko formatiranje sastojaka recepta (količina, mera i naziva) pomoću veštačke inteligencije.</em>
+                        </p>
+                    </td>
+                    <td class="text-center">
+                        <icon name="check" scale="1" class="text-main" />
+                    </td>
+                    <td class="text-center">
+                        <icon name="check" scale="1" class="text-main" />
+                    </td>
+                    <td class="text-center">
+                        <icon name="check" scale="1" class="text-main" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         Prevodi jelovnika i recepata <sup>(AI)</sup>
                         <p class="small">
                             <em>
