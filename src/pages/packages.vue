@@ -864,11 +864,11 @@
                                 1 mesec - <span class="font-weight-bold">{{ convertAndFormat(prices.start.mo_1) }}</span>
                             </div>
                             <div class="text-nowrap">
-                                2 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.start.mo_3) }}</span>
+                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.start.mo_3) }}</span>
                                 (-10%)
                             </div>
                             <div class="text-nowrap">
-                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.start.mo_6) }}</span>
+                                6 meseci - <span class="font-weight-bold">{{ convertAndFormat(prices.start.mo_6) }}</span>
                                 (-20%)
                             </div>
                             <div class="text-nowrap">
@@ -902,11 +902,11 @@
                                 1 mesec - <span class="font-weight-bold">{{ convertAndFormat(prices.standard.mo_1) }}</span>
                             </div>
                             <div class="text-nowrap">
-                                2 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.standard.mo_3)
+                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.standard.mo_3)
                                 }}</span> (-10%)
                             </div>
                             <div class="text-nowrap">
-                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.standard.mo_6)
+                                6 meseci - <span class="font-weight-bold">{{ convertAndFormat(prices.standard.mo_6)
                                 }}</span> (-20%)
                             </div>
                             <div class="text-nowrap">
@@ -940,11 +940,11 @@
                                 1 mesec - <span class="font-weight-bold">{{ convertAndFormat(prices.premium.mo_1) }}</span>
                             </div>
                             <div class="text-nowrap">
-                                2 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.premium.mo_3) }}</span>
+                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.premium.mo_3) }}</span>
                                 (-10%)
                             </div>
                             <div class="text-nowrap">
-                                3 meseca - <span class="font-weight-bold">{{ convertAndFormat(prices.premium.mo_6) }}</span>
+                                6 meseci - <span class="font-weight-bold">{{ convertAndFormat(prices.premium.mo_6) }}</span>
                                 (-20%)
                             </div>
                             <div class="text-nowrap">
@@ -969,6 +969,11 @@
                 </tr>
             </table>
         </div>
+
+        <p v-if="prices.discount.perc>0" class="lead text-main font-weight-bold">
+            <icon name="percent" scale=1 />
+            Na godišnju, dvogodišnju i trogodišnju pretplatu obračunava se dodatni popust od {{prices.discount.perc}}%. Akcija važi do {{prices.discount.validTo}}.
+        </p>
 
         <p style="font-size: 0.9em; color: #666; margin-top: 10px;">
             <strong>Napomena:</strong> Sve iskazane cene su informativne i izražene u srpskim dinarima. Konačna cena može
