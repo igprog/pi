@@ -5,13 +5,22 @@
 :root {
   /* --main-color: #065d8a;
   --main-color-light: #46b5d0; */
-  --main-color: #4c91a1;
-  --main-color-light: #78B6C4;
+  /* --main-color: #4c91a1;
+  --main-color-light: #78B6C4; */
+
+  --main-color: rgb(33, 109, 103);
+  --main-color-light: rgb(72, 152, 146);
 }
 
 #app {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+    font-family: 'Raleway', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #2c3e50;
 }
+
 .btn-primary {  
     background-color: #46b5d0;
     border: 1px solid #46b5d0;
@@ -43,8 +52,7 @@
     background-color: #058CAC;
 }
 .bg-main-gradient {
-    background-image: linear-gradient(to bottom right, var(--main-color), var(--main-color-light));
-    /* color: white !important; */
+    background-image: linear-gradient(to bottom, var(--main-color-light), var(--main-color)) !important;
 }
 .banner {
     /* background: url("../../assets/img/banner.png") no-repeat center center; */
@@ -115,15 +123,17 @@
   .font-beauty {
     font-family: 'Kaushan Script', cursive;
   }
+
   h2, h3 {
     color: var(--main-color);
+    font-weight: 600;
+      /* ili 700 za istaknutije naslove */
+      letter-spacing: -0.5px;
   }
   .text-main {
       color: var(--main-color);
   }
-  h2 {
-    font-family: 'Kaushan Script', cursive;
-  }
+  
   .clearfix::after {
     content: "";
     clear: both;
@@ -203,5 +213,9 @@ feature-text {
 
 .border-main:hover {
     background-color: var(--main-color)!important;
+}
+
+.btn-outline-light:hover {
+  background-color: var(--main-color)!important;
 }
 

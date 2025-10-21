@@ -33,6 +33,11 @@
         Plan ishrane
       </a>
     </div>
+    <div class="pb-1">
+      <a href="https://www.nutriprog.com/" title="Nutrition Program">
+        Nutrition Program
+      </a>
+    </div>
   </div>
 </template>
 

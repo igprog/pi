@@ -971,7 +971,6 @@
         </div>
 
         <p v-if="prices.discount.perc>0" class="lead text-main font-weight-bold">
-            <icon name="percent" scale=1 />
             Na godišnju, dvogodišnju i trogodišnju pretplatu obračunava se dodatni popust od {{prices.discount.perc}}%. Akcija važi do {{prices.discount.validTo}}.
         </p>
 

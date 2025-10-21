@@ -11,16 +11,16 @@
                             Profesionalni softver za nutricioniste
                         </h2>
                         <div class="py-3">
-                            <a href="https://www.programprehrane.com/app/#/?lang=sr" class="btn btn-light m-2 main-border bg-white"
-                                style="width:260px;height:50px;" title="Prijava u aplikaciju">
-                                <icon name="sign-in-alt" scale=2 class="text-main" />
-                                <span class="lead font-weight-bold text-main pl-1">Ulaz za korisnike</span>
-                            </a>
                             <a href="https://www.programprehrane.com/registracija?lang=sr"
                                 class="btn btn-light m-2 pt-2 main-border bg-white" style="width:260px;height:50px;"
                                 title="Registracija">
                                 <icon name="user-plus" scale=2 class="text-main" />
                                 <span class="lead font-weight-bold text-main pl-1">Postani korisnik</span>
+                            </a>
+                            <a href="https://www.programprehrane.com/app/#/?lang=sr" class="btn btn-outline-light m-2 main-border"
+                                style="width:260px;height:50px;" title="Prijava u aplikaciju">
+                                <icon name="sign-in-alt" scale=2 class="text-white" />
+                                <span class="lead font-weight-bold text-white pl-1">Ulaz za korisnike</span>
                             </a>
                         </div>
                     </div>
@@ -130,15 +130,15 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+700</div>
+                            <div class="circle-stat mb-3">+720</div>
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+120.000</div>
+                            <div class="circle-stat mb-3">+126.000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+17</div>
+                            <div class="circle-stat mb-3">+18</div>
                             <h5 class="text-main font-weight-bold">Godina iskustva</h5>
                         </div>
                     </div>
@@ -286,9 +286,17 @@
                 <div class="text-center">
                     <h2>PAKETI</h2>
                     <hr class="w-25 mx-auto mb-4" />
+                    <p class="text-muted mx-auto mb-4" style="max-width: 600px;">
+                        Cena paketa počinje od <strong>5 € mesečno</strong> (uz pretplatu na 3 godine).<br>
+                        Cene variraju u zavisnosti od plana pretplate, izabranog paketa i broja licenci.<br><br>
+                        <span class="text-main fw-semibold">Popusti:</span><br>
+                        ✔️ 20% popusta za pretplatu na 2 godine<br>
+                        ✔️ 30% popusta za pretplatu na 3 godine
+                    </p>
+
                 </div>
                 <div class="row slideanim">
-                    <div class="col-xl-3 col-lg-6 col-md-12 p-2">
+                    <!-- <div class="col-xl-3 col-lg-6 col-md-12 p-2">
                         <div class="card text-center">
                             <div class="card-header main-gradient">
                                 <h3 class="font-weight-bold">DEMO</h3>
@@ -326,12 +334,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 p-2">
-                        <div class="card text-center zoom">
-                            <div class="card-header main-gradient">
-                                <h3 class="font-weight-bold">START</h3>
+                    <div class="col-xl-4 col-lg-6 col-md-12 p-2">
+                        <div class="card h-100 text-center zoom">
+                            <div class="card-header bg-main-gradient">
+                                <h2 class="font-weight-bold text-white">START</h2>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4 text-center">
@@ -340,19 +348,19 @@
                                     <hr class="m-0" />
                                 </div>
                                 <div>
-                                    <div><s class="text-muted">Dodatne licence</s></div>
-                                    <div>Br. klijenata: <strong>5/mesečno</strong></div>
-                                    <div>Br. namirnica: <strong>664</strong></div>
-                                    <div>Br. fizičkih aktivnosti: <strong>470</strong></div>
-                                    <div>Maks. broj obroka: <strong>6</strong></div>
-                                    <div>Metode proračuna BMR: <strong>1</strong></div>
-                                    <div><s class="text-muted">Kalendar termina</s></div>
+                                    <!-- <div><s class="text-muted">Dodatne licence</s></div> -->
+                                    <div>✔ Br. klijenata: <strong>5/mesečno</strong></div>
+                                    <div>✔ Br. namirnica: <strong>664</strong></div>
+                                    <div>✔ Br. fizičkih aktivnosti: <strong>470</strong></div>
+                                    <div>✔ Maks. broj obroka: <strong>6</strong></div>
+                                    <div>✔ Metode proračuna BMR: <strong>1</strong></div>
+                                    <!-- <div><s class="text-muted">Kalendar termina</s></div>
                                     <div><s class="text-muted">Aplikacija za klijente</s></div>
                                     <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
-                                    <div><s class="text-muted">AI podrška</s></div>
-                                    <div>
+                                    <div><s class="text-muted">AI podrška</s></div> -->
+                                    <div class="pt-2">
                                         <router-link to="paketi" title="paketi">
-                                            <span>više...</span>
+                                            <span class="text-main font-weight-bold">više...</span>
                                         </router-link>
                                     </div>
                                 </div>
@@ -368,10 +376,10 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 p-2">
-                        <div class="card text-center zoom">
-                            <div class="card-header main-gradient">
-                                <h3 class="font-weight-bold">STANDARD</h3>
+                    <div class="col-xl-4 col-lg-6 col-md-12 p-2">
+                        <div class="card h-100 text-center zoom">
+                            <div class="card-header bg-main-gradient text-white">
+                                <h2 class="font-weight-bold text-white">STANDARD</h2>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
@@ -381,22 +389,22 @@
                                     <hr class="m-0" />
                                 </div>
                                 <div>
-                                    <div>Dodatne licence: <strong>maks. 1 <sup custom-popover
+                                    <div>✔ Dodatne licence: <strong>maks. 1 <sup custom-popover
                                                 popover-html="Odnosi se na dodatne korisnike aplikacije koji unutar jednog tima (zajedničke radne organizacije ili ustanove) imaju pravo pristupa zajedničkoj bazi podataka. Korisnici STANDARD paketa imaju pravo na registraciju jednog dodatnog korisnika. Cena dodatne licence iznosi 100,00 €/god. (obrazovne ustanove: 10,00 €/god.)."
                                                 popover-placement="bottom" popover-trigger="hover"
                                                 popover-label=""></sup></strong></div>
-                                    <div>Br. klijenata: <strong>20/mesečno</strong></div>
-                                    <div>Br. namirnica: <strong>740</strong></div>
-                                    <div>Br. fizičkih aktivnosti: <strong>470</strong></div>
-                                    <div>Maks. broj obroka: <strong>6</strong></div>
-                                    <div>Metode proračuna BMR: <strong>4</strong></div>
-                                    <div>Kalendar termina</div>
-                                    <div>Aplikacija za klijente</div>
-                                    <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
-                                    <div><s class="text-muted">AI podrška</s></div>
-                                    <div>
+                                    <div>✔ Br. klijenata: <strong>20/mesečno</strong></div>
+                                    <div>✔ Br. namirnica: <strong>740</strong></div>
+                                    <div>✔ Br. fizičkih aktivnosti: <strong>470</strong></div>
+                                    <div>✔ Maks. broj obroka: <strong>6</strong></div>
+                                    <div>✔ Metode proračuna BMR: <strong>4</strong></div>
+                                    <div>✔ Kalendar termina</div>
+                                    <div>✔ Aplikacija za klijente</div>
+                                    <!-- <div><s class="text-muted">Pristup USDA bazi namirnica</s></div>
+                                    <div><s class="text-muted">AI podrška</s></div> -->
+                                    <div class="pt-2">
                                         <router-link to="paketi" title="paketi">
-                                            <span>više...</span>
+                                            <span class="text-main font-weight-bold">više...</span>
                                         </router-link>
                                     </div>
                                 </div>
@@ -412,10 +420,10 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-12 p-2">
-                        <div class="card text-center zoom shadow">
-                            <div class="card-header main-gradient">
-                                <h3 class="font-weight-bold">PREMIUM</h3>
+                    <div class="col-xl-4 col-lg-6 col-md-12 p-2">
+                        <div class="card h-100 text-center zoom shadow">
+                            <div class="card-header bg-main-gradient text-white">
+                                <h2 class="font-weight-bold text-white">PREMIUM</h2>
                             </div>
                             <div class="card-body pt-2">
                                 <div class="p-2 pb-4">
@@ -424,22 +432,22 @@
                                     <hr class="m-0" />
                                 </div>
                                 <div>
-                                    <div>Dodatne licence: <strong>&infin; <sup custom-popover
+                                    <div>✔ Dodatne licence: <strong>neograničeno<sup custom-popover
                                                 popover-html="Odnosi se na dodatne korisnike aplikacije koji unutar jednog tima (zajedničke radne organizacije ili ustanove) imaju pravo pristupa zajedničkoj bazi podataka. Cena dodatne licence iznosi 100,00 €/god. (obrazovne ustanove: 10,00 €/god.)."
                                                 popover-placement="bottom" popover-trigger="hover"
                                                 popover-label=""></sup></strong></div>
-                                    <div>Br. klijenata: <strong>&infin;</strong></div>
-                                    <div>Br. namirnica: <strong>970</strong></div>
-                                    <div>Br. fizičkih aktivnosti: <strong>727</strong></div>
-                                    <div>Maks. broj obroka: <strong>9</strong></div>
-                                    <div>Metode proračuna BMR: <strong>5</strong></div>
-                                    <div>Kalendar termina</div>
-                                    <div>Aplikacija za klijente</div>
-                                    <div>Pristup USDA bazi namirnica</div>
-                                    <div>AI podrška</div>
-                                    <div>
+                                    <div>✔ Br. klijenata: <strong>neograničeno</strong></div>
+                                    <div>✔ Br. namirnica: <strong>970</strong></div>
+                                    <div>✔ Br. fizičkih aktivnosti: <strong>727</strong></div>
+                                    <div>✔ Maks. broj obroka: <strong>9</strong></div>
+                                    <div>✔ Metode proračuna BMR: <strong>5</strong></div>
+                                    <div>✔ Kalendar termina</div>
+                                    <div>✔ Aplikacija za klijente</div>
+                                    <div>✔ Pristup USDA bazi namirnica</div>
+                                    <div>✔ AI funkcije</div>
+                                    <div class="pt-2">
                                         <router-link to="paketi" title="paketi">
-                                            <span>više...</span>
+                                            <span class="text-main font-weight-bold">više...</span>
                                         </router-link>
                                     </div>
                                 </div>

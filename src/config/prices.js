@@ -6,5 +6,5 @@ export const prices = {
     additionalUsers: { regularPrice: 100.00, studentPrice: 10.00 },
     currency: 'RSD',
     conversionRate: 117.18,
-    discount: { perc: 20, validTo: '30.9.2025' }
+    discount: { perc: 0, validTo: '30.9.2025' }
 }
