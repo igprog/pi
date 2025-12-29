@@ -130,11 +130,11 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+720</div>
+                            <div class="circle-stat mb-3">+730</div>
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+126.000</div>
+                            <div class="circle-stat mb-3">+132.000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
@@ -293,6 +293,10 @@
                         ✔️ 20% popusta za pretplatu na 2 godine<br>
                         ✔️ 30% popusta za pretplatu na 3 godine
                     </p>
+
+                <p v-if="prices.discount.perc>0" class="text-main font-weight-bold">
+                    Na godišnju, dvogodišnju i trogodišnju pretplatu obračunava se dodatni popust od {{prices.discount.perc}}%. Akcija važi do {{prices.discount.validTo}}.
+                </p>
 
                 </div>
                 <div class="row slideanim">
@@ -464,6 +468,7 @@
                     </div>
 
                 </div>
+
             </div>
         </section>
 
