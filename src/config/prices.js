@@ -5,6 +5,6 @@ export const prices = {
     premium: { mo_1: 32.00, mo_3: 86.40, mo_6: 153.60, yr_1: 215.04, yr_2: 368.64, yr_3: 460.80, min_mo_price: 16.00  },
     additionalUsers: { regularPrice: 100.00, studentPrice: 10.00 },
     currency: 'RSD',
-    conversionRate: 117.32,
-    discount: { perc: 20, validTo: '31.12.2025' }
+    conversionRate: 117.29,
+    discount: { perc: 0, validTo: '31.12.2025' }
 }
