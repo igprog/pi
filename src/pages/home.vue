@@ -130,16 +130,16 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+730</div>
+                            <div class="circle-stat mb-3">+740</div>
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+132.000</div>
+                            <div class="circle-stat mb-3">+134.000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
                             <div class="circle-stat mb-3">+18</div>
-                            <h5 class="text-main font-weight-bold">Godina iskustva</h5>
+                            <h5 class="text-main font-weight-bold">Godina razvoja</h5>
                         </div>
                     </div>
                 </div>
@@ -261,7 +261,7 @@
                             </div>
                         </div>
                         <div class="col-lg-6 text-center">
-                            <img src="../assets/img/program_prehrane_web_korisnici.png?v=10.10.2024"
+                            <img src="../assets/img/program_prehrane_web_korisnici.png?v=28.01.2026"
                                 alt="Korisnici Programa Ishrane" class="img-fluid img-thumbnail shadow-sm" loading="lazy">
                         </div>
                     </div>
