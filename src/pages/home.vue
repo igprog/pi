@@ -81,7 +81,7 @@
                         <h2 class="font-weight-bold">Zašto izabrati Program Ishrane?</h2>
                         <hr class="w-50 mx-auto mb-4">
                         <p class="text-muted mt-3">
-                            <strong>Program Ishrane</strong> je proveren i pouzdan softver koji već 18 godina koriste
+                            <strong>Program Ishrane</strong> je proveren i pouzdan softver koji već {{yearsOfDevelopment}} godina koriste
                             nutricionisti, zdravstvene ustanove i obrazovne institucije. Zahvaljujući jednostavnom
                             interfejsu,
                             pristupačnoj ceni i fleksibilnim modelima pretplate, softver je dostupan i osobama bez
@@ -91,7 +91,7 @@
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
                             <icon name="check-circle" scale=3 class="text-main mb-3" />
-                            <h5 class="font-weight-bold">19 godina razvoja</h5>
+                            <h5 class="font-weight-bold">{{yearsOfDevelopment}} godina razvoja</h5>
                             <p class="feature-text">Stabilan i razvijan u saradnji sa profesionalcima iz prakse.</p>
                         </div>
                         <div class="col-md-4 mb-4">
@@ -130,15 +130,15 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+770</div>
+                            <div class="circle-stat mb-3">+777</div>
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+170 000</div>
+                            <div class="circle-stat mb-3">+146 500</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+17 000</div>
+                            <div class="circle-stat mb-3">+17 300</div>
                             <h5 class="text-main font-weight-bold">Klijenata</h5>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                     <h2 class="font-weight-bold text-light mb-3">Započni odmah sa Programom Ishrane</h2>
                     <p class="lead mb-4">
                         Pridruži se stotinama zadovoljnih korisnika širom regiona i isprobaj besplatno! Uveri se zašto nas
-                        nutricionisti, poliklinike i obrazovne ustanove biraju već 19 godina.
+                        nutricionisti, poliklinike i obrazovne ustanove biraju već {{yearsOfDevelopment}} godina.
                     </p>
                     <a href="https://www.programprehrane.com/registracija?lang=sr"
                         class="btn btn-light m-2 main-border bg-white d-inline-flex align-items-center justify-content-center"
@@ -508,6 +508,7 @@ export default {
                 { img: "zavod_za_javno_zdravstvo_pgz.jpg", title: "Zavod za javno zdravstvo Primorsko goranske Županije" },
                 { img: "zavod_za_javno_zdravlje_subotica.jpg", title: "Zavod za javno zdravlje Subotica" }
             ],
+            yearsOfDevelopment : new Date().getFullYear() - 2008
         };
     },
     components: {
