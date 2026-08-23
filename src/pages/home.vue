@@ -130,15 +130,15 @@
                 <div class="container">
                     <div class="row text-center">
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+777</div>
+                            <div class="circle-stat mb-3">+800</div>
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+146 500</div>
+                            <div class="circle-stat mb-3">+150 000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+17 300</div>
+                            <div class="circle-stat mb-3">+18 000</div>
                             <h5 class="text-main font-weight-bold">Klijenata</h5>
                         </div>
                     </div>
