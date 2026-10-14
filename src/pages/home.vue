@@ -134,11 +134,11 @@
                             <h5 class="text-main font-weight-bold">Aktivnih korisnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+150 000</div>
+                            <div class="circle-stat mb-3">+160 000</div>
                             <h5 class="text-main font-weight-bold">Kreiranih jelovnika</h5>
                         </div>
                         <div class="col-md-4 mb-4">
-                            <div class="circle-stat mb-3">+18 000</div>
+                            <div class="circle-stat mb-3">+20 000</div>
                             <h5 class="text-main font-weight-bold">Klijenata</h5>
                         </div>
                     </div>
